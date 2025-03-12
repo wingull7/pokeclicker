@@ -792,6 +792,7 @@ export const pokemonList = createPokemonArray(
         'levelType': LevelType.mediumfast,
         'exp': 39,
         'eggCycles': 15,
+        'evolutions': [LevelEvolution('Pinkan Caterpie', 'Pinkan Metapod', 7)],
         'base': {
             'hitpoints': 45,
             'attack': 30,
@@ -815,6 +816,26 @@ export const pokemonList = createPokemonArray(
             DummyEvolution('Metapod', 'Pink Butterfree'),
             DummyEvolution('Metapod', 'Ash\'s Butterfree'),
             DummyEvolution('Metapod', 'Gigantamax Butterfree'),
+        ],
+        'base': {
+            'hitpoints': 50,
+            'attack': 20,
+            'specialAttack': 25,
+            'defense': 55,
+            'specialDefense': 25,
+            'speed': 30,
+        },
+    },
+    {
+        'id': 11.01,
+        'name': 'Pinkan Metapod',
+        'catchRate': 120,
+        'type': [PokemonType.Bug],
+        'levelType': LevelType.mediumfast,
+        'exp': 72,
+        'eggCycles': 15,
+        'evolutions': [
+            LevelEvolution('Pinkan Metapod', 'Pinkan Butterfree', 10),
         ],
         'base': {
             'hitpoints': 50,

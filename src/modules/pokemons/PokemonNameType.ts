@@ -51,6 +51,7 @@ export type PokemonNameType
     | 'Caterpie'
     | 'Pinkan Caterpie'
     | 'Metapod'
+    | 'Pinkan Metapod'
     | 'Butterfree'
     | 'Gigantamax Butterfree'
     | 'Valencian Butterfree'
